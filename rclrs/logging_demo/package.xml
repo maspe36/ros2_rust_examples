@@ -3,22 +3,17 @@
    href="http://download.ros.org/schema/package_format3.xsd"
    schematypens="http://www.w3.org/2001/XMLSchema"?>
 <package format="3">
-  <name>examples_rclrs_minimal_pub_sub</name>
-  <version>0.4.1</version>
-  <description>Package containing an example of the publish-subscribe mechanism in rclrs.</description>
+  <name>examples_logging_demo</name>
   <maintainer email="esteve@apache.org">Esteve Fernandez</maintainer>
-  <maintainer email="nnmmgit@gmail.com">Nikolai Morin</maintainer>
   <!-- This project is not military-sponsored, Jacob's employment contract just requires him to use this email address -->
   <maintainer email="jacob.a.hassold.civ@army.mil">Jacob Hassold</maintainer>
+  <version>0.4.1</version>
+  <description>Package containing an example of how to use a worker in rclrs.</description>
   <license>Apache License 2.0</license>
 
-  <build_depend>rclrs</build_depend>
-  <build_depend>rosidl_runtime_rs</build_depend>
-  <build_depend>example_interfaces</build_depend>
-
-  <exec_depend>rclrs</exec_depend>
-  <exec_depend>rosidl_runtime_rs</exec_depend>
-  <exec_depend>example_interfaces</exec_depend>
+  <depend>rclrs</depend>
+  <depend>rosidl_runtime_rs</depend>
+  <depend>example_interfaces</depend>
 
   <export>
     <build_type>ament_cargo</build_type>
