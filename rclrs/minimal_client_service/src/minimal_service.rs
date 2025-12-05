@@ -1,5 +1,5 @@
 use anyhow::{Error, Result};
-use example_interfaces::srv::*;
+use rclrs::example_interfaces::srv::*;
 use rclrs::*;
 
 fn handle_service(request: AddTwoInts_Request, info: ServiceInfo) -> AddTwoInts_Response {
