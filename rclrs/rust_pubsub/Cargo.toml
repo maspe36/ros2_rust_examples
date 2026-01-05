@@ -13,4 +13,3 @@ path="src/simple_subscriber.rs"
 
 [dependencies]
 rclrs = "*"
-std_msgs = "*"
